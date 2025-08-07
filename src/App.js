@@ -3,9 +3,10 @@
 
 import './App.css';
 import React from 'react';
-import Login from './FrontendData/Login';
+// import Login from './FrontendData/Login';
 // import Render from './Performance/Conditional-Rendering/Render';
-import Parent from './Client-Side-Routing/Parent';
+// import Parent from './Client-Side-Routing/Parent';
+import Todo from './TodoComponent/Todo';
 // import List from './List-Rendering/List';
 // import Parent from './Destructuring/Parent';
 // import Profile from './components/Profile';
@@ -22,8 +23,9 @@ function App() {
       {/* <List/> */}
       {/* <Parent/> */}
       {/* <Render/> */}
-      <Parent/>
-      <Login/>
+      {/* <Parent/> */}
+      {/* <Login/> */}
+      <Todo/>
     </div>
   );
 }
