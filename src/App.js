@@ -4,6 +4,7 @@
 import './App.css';
 import React from 'react';
 import LoginForm from './ReduxComponents/LoginForm';
+import UserList from './PracticeComponent/UserList';
 // import Login from './FrontendData/Login';
 // import Render from './Performance/Conditional-Rendering/Render';
 // import Parent from './Client-Side-Routing/Parent';
@@ -28,6 +29,7 @@ function App() {
       {/* <Login/> */}
       {/* <Todo/> */}
       <LoginForm/>
+      <UserList/>
     </div>
   );
 }
