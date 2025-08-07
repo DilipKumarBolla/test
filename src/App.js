@@ -3,10 +3,11 @@
 
 import './App.css';
 import React from 'react';
+import LoginForm from './ReduxComponents/LoginForm';
 // import Login from './FrontendData/Login';
 // import Render from './Performance/Conditional-Rendering/Render';
 // import Parent from './Client-Side-Routing/Parent';
-import Todo from './TodoComponent/Todo';
+// import Todo from './TodoComponent/Todo';
 // import List from './List-Rendering/List';
 // import Parent from './Destructuring/Parent';
 // import Profile from './components/Profile';
@@ -25,7 +26,8 @@ function App() {
       {/* <Render/> */}
       {/* <Parent/> */}
       {/* <Login/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <LoginForm/>
     </div>
   );
 }
